@@ -1,4 +1,9 @@
 <?php
+namespace core;
+
+use Exception;
+use PDO;
+
 class BaseSQL{
 
 	private $pdo;
